@@ -42,7 +42,6 @@ app.post('/create', async (req, res) => {
       res.redirect('/');
     }
   });
-  
 });
 
 app.listen(80);
