@@ -10,4 +10,7 @@ COPY . /app
 
 EXPOSE 80
 
+ENV MONGO_USERNAME=admin
+ENV MONGO_PASSWORD=admin
+
 CMD ["npm", "start"]
